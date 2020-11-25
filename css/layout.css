@@ -18,7 +18,7 @@ body {
         display: inline-block;
         width: 600px;
         position: absolute;
-        top: 57%;
+        top: 58%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-image: linear-gradient(to right, #A0EB87 , #C0EFAE , #A0EB87);
@@ -79,4 +79,5 @@ body {
             text-align: center;
             margin-left: calc(50% - 150px);
             font-size: 20px;
+            box-shadow: 0 px 5px black;
         }

@@ -1,0 +1,101 @@
+.btn > p:hover {
+    transition: all 0.2s , box-shadow 0s;
+    background-color: #5E2BB8;
+    box-shadow: 0 4px 8px black;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+
+@media (max-width: 650px) {
+    .container {
+        width:300px;
+        max-height: 500px;
+    }
+
+    .btn > p {
+        background-color:#5E2BB8 ;
+        color: white;
+        width: 200px;
+        margin-left: calc(50% - 100px);
+        
+    }
+}
+
+@media (max-height:740px){
+    .container {
+        top: 50%
+    }
+    .alien > img {
+        display: none;
+    }
+}
+
+@media (min-height:740px) and (max-height:800px) {
+    .container {
+        top:62%;
+    }
+}
+
+@media(min-height: 780px) and (max-height:840px) {
+    .container {
+        top:59%
+    }
+}
+
+@media (min-height:855px) and (max-height:900px) {
+    .alien > img {
+        width:400px
+    }
+    .container {
+        top:60%
+    }
+}
+
+@media (min-height:900px) and (max-height:950px) {
+    .alien > img {
+        width:400px;
+        top: 18%;
+    }
+
+    .container {
+        top:61%;
+    }
+}
+
+@media (min-height:950px){
+    .alien > img {
+        width:400px;
+        top: 18%;
+    }
+
+    .container {
+        top:61%;
+        width: 750px;
+        height: 580px;
+    }
+    .input-row {
+        margin-bottom: 30px;
+        
+    }
+
+    .input-row > input {
+        font-size: 20px;
+        height: 40px;
+    }
+
+    .input-row > label {
+        font-size: 20px;
+    }
+
+    .btn > p {
+        
+        background-color:#5E2BB8 ;
+        color: white;
+        width: 300px;
+        font-size: 25px;
+
+
+}
