@@ -3,6 +3,6 @@
 
 Simple sign up page with aliens theme.
 
-Features:
+Features:<br>
 -responsive design <br>
 -position absolute
